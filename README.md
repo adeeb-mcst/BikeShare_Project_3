@@ -5,7 +5,7 @@
 Bikeshare project 3
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare project uses Python script to reads data from .csv files for Washington, New York city or Chicago. Moreover, it shows statistical information from the analysed data.
 
 ### Files used
 Include the files used
