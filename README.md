@@ -8,8 +8,12 @@ Bikeshare project 3
 Bikeshare project uses Python script to reads data from .csv files for Washington, New York city or Chicago. Moreover, it shows statistical information from the analysed data.
 
 ### Files used
-Include the files used
+bike.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+ https://git-scm.com/
+ https://stackoverflow.com
+ https://udacity.com
