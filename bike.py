@@ -130,7 +130,8 @@ def user_stats(df, city):
     # Counts of user types
     user_types = df.groupby(['User Type'])['User Type'].count()
     print(user_types, "\n")
-    if city != 'washington': # Washington raw data doesn't has gender information
+    if city != 'washington':
+        # Washington raw data doesn't has gender information
         # Display count of genders
         gender = df.groupby(['Gender'])['Gender'].count()
         print(gender)
