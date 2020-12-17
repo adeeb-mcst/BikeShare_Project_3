@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US Cities bikeshare data!')
     
     # Get user input for city (chicago, new york city, washington).
     while True:
@@ -131,7 +131,7 @@ def user_stats(df, city):
     # Counts of user types
     user_types = df.groupby(['User Type'])['User Type'].count()
     print(user_types, "\n")
-    if city != 'washington':
+    if city != 'washington': # Washington raw data doesn't has gender information
         # Display count of genders
         gender = df.groupby(['Gender'])['Gender'].count()
         print(gender)
@@ -166,7 +166,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
 
-        restart = input('\nWould you like to restart? Enter [Yes] or [No].\n')
+        restart = input('\nWould you like to restart and expolre another city? Enter [Yes] or [No].\n')
         if restart.lower() != 'yes':
             break
 
