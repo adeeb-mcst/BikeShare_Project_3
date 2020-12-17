@@ -7,7 +7,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 def get_filters():
-    
     print('Hello! Let\'s explore some US Cities bikeshare data!')
     
     # Get user input for city (chicago, new york city, washington).
