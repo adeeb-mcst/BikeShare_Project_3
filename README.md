@@ -19,4 +19,3 @@ washington.csv,
  https://stackoverflow.com
  
  https://udacity.com
->>>>>>> documentation
